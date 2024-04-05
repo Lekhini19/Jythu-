@@ -1,0 +1,19 @@
+
+
+.input{
+    outline: 3px solid #38EF7D;
+    outline-offset: 4px;
+}
+
+.range-value{
+    color: transparent;
+    background: linear-gradient(to left, #38EF7D, #11998E);
+    background-clip: text;
+
+}
+
+.callus-text{
+    color: transparent;
+    background: linear-gradient(to left, #38EF7D, #11998E);
+    background-clip: text;
+}

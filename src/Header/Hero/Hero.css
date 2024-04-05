@@ -1,0 +1,46 @@
+.hero{
+  min-height: 100vh;
+}
+
+.hero-content {
+  background: url("../../assets/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh - 80px);
+}
+
+
+.hero-right .hero-span {
+  background-image: linear-gradient(to right, #38ef7d, #11998e);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-decoration: underline;
+
+  border-bottom: 4px solid;
+
+  border-image: linear-gradient(to right, #38ef7d, #11998e) 1;
+  -webkit-border-image: linear-gradient(to right, #38ef7d, #11998e) 1;
+  border-image-slice: 1;
+}
+
+.heading p {
+  color: transparent;
+  font-weight: 500;
+  background: linear-gradient(to left, #38ef7d, #11998e);
+  background-clip: text;
+}
+
+.heading p img {
+  color: white;
+}
+
+
+/* media queries  */
+
+@media screen and (max-width: 990px) {
+  .hero-content {
+    background: black;
+    height: auto;
+  }
+}

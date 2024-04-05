@@ -1,0 +1,73 @@
+
+
+.scroll-div{
+    background: linear-gradient(to left, #38EF7D, #11998E);
+}
+
+
+.scroll-div img{
+    display: inline-block;
+    margin-right: 40px;
+  animation: scroll 30s linear infinite forwards;
+
+}
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+.team-card{
+  background: url('../../assets//team-card-bg.svg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all .2s ease-in;
+  transform-origin: bottom;
+  overflow: hidden;
+}
+
+.team-img {
+  transition: all .3s ease-in-out;
+}
+
+.team-card:hover{
+  background: url('../../assets/team-card-bg2.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.team-card:hover .team-img{
+  transform: scale(0.8) translateY(-20px);
+  border-radius: 50%;
+  outline: dotted  #179372;
+  outline-width: 10px;
+  background: #1CB089;
+
+}
+
+.team-card:hover .team-info{
+  transform: translateY(-40px);
+}
+
+.team-card:hover .team-social{
+  bottom: -10px;
+  opacity: 1;
+}
+
+.fab{
+  transition: all .2s ease-in;
+}
+
+.team-social .fab:hover{
+  color: #1CB089;
+  background-color: white;
+}

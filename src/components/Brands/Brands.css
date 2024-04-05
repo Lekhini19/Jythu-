@@ -1,0 +1,6 @@
+.brands-heading-span{
+
+    color: transparent;
+    background: linear-gradient(to left, #38ef7d, #11998e);
+    background-clip: text;
+}
